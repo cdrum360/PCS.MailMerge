@@ -30,8 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ceTe.DynamicPDF.40">
-      <HintPath>..\..\..\..\temp\ceTe.DynamicPDF.40.dll</HintPath>
+    <Reference Include="ceTe.DynamicPDF.40, Version=8.0.1.40, Culture=neutral, PublicKeyToken=09b5ce0d5c0a9d8b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>ExternalLibraries\ceTe.DynamicPDF.40.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -47,5 +48,6 @@
     <Compile Include="PlanMerger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
